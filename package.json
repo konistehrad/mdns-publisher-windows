@@ -18,6 +18,11 @@
       "type": "ssh",
       "port": 22,
       "protocol": "tcp"
+    },
+    {
+      "type": "sftp",
+      "port": 115,
+      "protocol": "tcp"
     }
   ]
 }
