@@ -6,7 +6,7 @@ A simple way to publish services via mDNS in Windows. Initially written to suppo
 
 First install depenencies using `npm install`.
 
-Modify the `services` array in `package.json` to the specification listed in [bonjour](https://github.com/watson/bonjour#publishing). Then, CD into this directory and install the service:
+Modify the `services` array in `package.json` to the specification listed in [bonjour](https://github.com/watson/bonjour#publishing). `name` may be kept blank in this case, and will be the hostname by default if not overridden. Then, CD into this directory and install the service:
 
 `npm run install`
 

@@ -15,7 +15,6 @@
   },
   "services": [
     {
-      "name": "SSH",
       "type": "ssh",
       "port": 22,
       "protocol": "tcp"

@@ -1,8 +1,10 @@
+const os = require('os');
 const bonjour = require('bonjour')();
 const package = require('./package.json');
 const services = package.services;
 
 for(const service of services) {
+  service.name = service.name || os.hostname();
   console.log(`Publishing service ${service.name} of type ${service.type} on port ${service.port}...`);
   bonjour.publish(service);
 }
