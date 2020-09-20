@@ -1,3 +1,6 @@
+# service cruft
+daemon
+
 # Logs
 logs
 *.log
